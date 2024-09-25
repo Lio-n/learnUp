@@ -1,50 +1,66 @@
-# React + TypeScript + Vite
+<p align="center" style="margin:50px 0;">
+Logo
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2 align="center" style="margin:50px 0; font-style: italic; font-weight: 500;">
+  Learn Together, Grow Together.
+</h2>
 
-Currently, two official plugins are available:
+## 📍 Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+  - [📌 Project Structure](#📌-project-structure)
+  - [⚜️Built with](#⚜️-built-with)
+  - [Technical instructions](#technical-instructions)
+- [🚀 Getting Started](#🚀-getting-started)
+  - [🟠 Pre-requirements](#🟠-pre-requirements)
+  - [🔵 Installation](#🔵-installation)
 
-## Expanding the ESLint configuration
+## Overview
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+_Añadir descripcion_
 
-- Configure the top-level `parserOptions` property like this:
+### 📌 Project Structure
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+_Añadir descripcion_
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### ⚜️ Built with
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- **Vercel**: To deploy the project.
+- **React.Js**: To create robust user interfaces.
+- **Typescript**: Due to its static typing.
+- **Vite.Js**: To enable fast development and optimized build processes.
+- **TailwindCss**: To create custom and responsive designs efficiently.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Technical instructions
+
+| Command        | Action performed                                                          |
+| :------------- | :------------------------------------------------------------------------ |
+| `yarn install` | Install all dependencies                                                  |
+| `yarn dev`     | Start a development server at `localhost:3000`                            |
+| `yarn build`   | Make the production build in `./dist/`                                    |
+| `yarn preview` | To preview the build before deploying                                     |
+| `yarn lint`    | Analyze code for potential errors, stylistic issues, and coding standards |
+
+## 🚀 Getting Started
+
+### 🟠 Pre-requirements
+
+- Node.js (>=18.x)
+- Yarn (>=3.2.0)
+
+### 🔵 Installation
+
+1. Clone repository:
+   ```sh
+   git clone git@github.com:Lio-n/learnUp.git
+   cd learnUp
+   ```
+2. Install NPM packages, in the root directory execute:
+   ```sh
+   yarn install
+   ```
+3. Run the Frontend, in the root directory execute:
+   ```sh
+   yarn dev
+   ```
