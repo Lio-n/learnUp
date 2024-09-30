@@ -1,5 +1,28 @@
+@tailwind base;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Silka;
+    font-weight: 400;
+    src: url(/fonts/Silka/silka-400-regular.ttf) format('truetype');
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Silka;
+    font-weight: 400;
+    src: url(/fonts/Silka/silka-400-italic.ttf) format('truetype');
+    font-display: swap;
+    font-style: italic;
+  }
+
+  html {
+    font-family: Silka, sans-serif;
+  }
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
