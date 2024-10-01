@@ -10,19 +10,19 @@ export default {
       },
       keyframes: {
         bubbleMoveLavenderIndigo: {
-          "50%": { "box-shadow": "0 0px 75px 0 rgba(168, 68, 255, 0.5)" },
+          "50%": { "box-shadow": "0 0px 75px 5px rgba(168, 68, 255, 1)" },
         },
         bubbleMoveVioletBlue: {
-          "50%": { "box-shadow": "0 0px 75px 0 rgba(109, 68, 255, 0.5)" },
+          "50%": { "box-shadow": "0 0px 75px 5px rgba(109, 68, 255, 1)" },
         },
         bubbleMoveBlack: {
-          "50%": { "box-shadow": "0 0px 75px 0 rgba(21,21,21,0.5)" },
+          "50%": { "box-shadow": "0 0px 75px 5px rgba(21,21,21,1)" },
         },
       },
       animation: {
-        bubbleMoveLavenderIndigo: "bubbleMoveLavenderIndigo 4s infinite",
-        bubbleMoveVioletBlue: "bubbleMoveVioletBlue 4s infinite",
-        bubbleMoveBlack: "bubbleMoveBlack 4s infinite",
+        bubbleMoveLavenderIndigo: "bubbleMoveLavenderIndigo 10s infinite",
+        bubbleMoveVioletBlue: "bubbleMoveVioletBlue 10s infinite",
+        bubbleMoveBlack: "bubbleMoveBlack 10s infinite",
       },
     },
     fontFamily: {
