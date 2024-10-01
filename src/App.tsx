@@ -1,7 +1,8 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
-import './App.css';
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import Bubble from "./ui/atoms/Bubble";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,12 +19,28 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
+        <button onClick={() => setCount((count) => count + 1)}>
+          count is {count}
+        </button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
+      <p className="read-the-docs">
+        Click on the Vite and React logos to learn more
+      </p>
+
+      <Bubble color="bg-lavender-indigo" size="medium" />
+      <br />
+      <Bubble size="small" variant="illuminated" color="bg-violet-blue" />
+      <br />
+      <Bubble
+        className="w-[200px] h-[200px]"
+        variant="illuminated"
+        color="bg-eerie-black"
+      />
+      <br />
+      <Bubble variant="illuminated" size="tiny" />
     </>
   );
 }
