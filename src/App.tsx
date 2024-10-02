@@ -3,13 +3,15 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Bubble from "./ui/atoms/Bubble";
+import Home from "./ui/organisms/home.organism";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <div>
+      <Home />
+      {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -28,19 +30,7 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
-
-      <Bubble color="bg-lavender-indigo" size="medium" />
-      <br />
-      <Bubble size="small" variant="illuminated" color="bg-violet-blue" />
-      <br />
-      <Bubble
-        className="w-[200px] h-[200px]"
-        variant="illuminated"
-        color="bg-eerie-black"
-      />
-      <br />
-      <Bubble variant="illuminated" size="tiny" />
+      </p> */}
     </>
   );
 }

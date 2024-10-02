@@ -7,6 +7,7 @@ export default {
         "lavender-indigo": "#A844FF",
         "violet-blue": "#6D44FF",
         "eerie-black": "#151515",
+        "white-smoke": "#F0F0F0",
       },
       keyframes: {
         bubbleMoveLavenderIndigo: {
