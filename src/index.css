@@ -5,14 +5,14 @@
   @font-face {
     font-family: Silka;
     font-weight: 400;
-    src: url(/fonts/Silka/silka-400-regular.ttf) format('truetype');
+    src: url(/fonts/Silka/silka-400-regular.ttf) format("truetype");
     font-display: swap;
   }
 
   @font-face {
     font-family: Silka;
     font-weight: 400;
-    src: url(/fonts/Silka/silka-400-italic.ttf) format('truetype');
+    src: url(/fonts/Silka/silka-400-italic.ttf) format("truetype");
     font-display: swap;
     font-style: italic;
   }
@@ -38,7 +38,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: white;
   text-decoration: inherit;
 }
 a:hover {
