@@ -33,6 +33,17 @@
   }
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  max-height: 80px;
+}
+
+.header-logo {
+  object-fit: scale-down;
+}
+
 .card {
   padding: 2em;
 }
