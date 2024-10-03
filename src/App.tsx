@@ -3,12 +3,14 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Bubble from "./ui/atoms/Bubble";
+import Footer from "./ui/molecules/footer";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
+      <Footer></Footer>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
