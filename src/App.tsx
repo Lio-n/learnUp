@@ -1,13 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import Bubble from "./ui/atoms/Bubble";
+import Footer from "./ui/molecules/footer";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
+      <Footer></Footer>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -28,8 +31,20 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+
+      <Bubble color="bg-lavender-indigo" size="medium" />
+      <br />
+      <Bubble size="small" variant="illuminated" color="bg-violet-blue" />
+      <br />
+      <Bubble
+        className="w-[200px] h-[200px]"
+        variant="illuminated"
+        color="bg-eerie-black"
+      />
+      <br />
+      <Bubble variant="illuminated" size="tiny" />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
