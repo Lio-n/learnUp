@@ -5,8 +5,8 @@ import Bubble from "../atoms/Bubble";
 
 function Footer({}) {
   return (
-    <footer className="bg-eerie-black max-w-[500px] min-w-[350px] min-h-[650px] flex flex-col p-[15px] gap-[40px] w-[80%]">
-      <div className="w-full grid gap-[25px]">
+    <footer className="bg-eerie-black min-w-[350px] h-[650px] flex flex-col p-[15px] gap-[40px] w-[80%] lg:flex-row lg:h-[400px] lg:w-full lg:justify-between">
+      <div className="w-full grid gap-[25px] lg:gap-[10px] lg:h-[300px] lg:w-[480px]">
         <img className="w-[50px]" src={owlLogo} alt="logo" />
         <h2 className="text-white text-4xl text-left">
           Register for Exclusive Access
@@ -23,28 +23,44 @@ function Footer({}) {
           </button>
         </form>
       </div>
-      <div className="flex text-white justify-between max-w-[400px]">
+      <div className="flex text-white justify-between max-w-[400px] lg:gap-[50px]">
         <div className="grid gap-[10px]">
           <p>Developed by</p>
           <span className="flex gap-[20px]">
             Leandro Fontan{" "}
-            <img className="object-contain" src={githubLogo} alt="social" />{" "}
-            <img className="object-contain" src={linkedinLogo} alt="social" />
+            <img className="object-scale-down" src={githubLogo} alt="social" />{" "}
+            <img
+              className="object-scale-down"
+              src={linkedinLogo}
+              alt="social"
+            />
           </span>
           <span className="flex gap-[20px]">
             Leandro Fontan{" "}
-            <img className="object-contain" src={githubLogo} alt="social" />{" "}
-            <img className="object-contain" src={linkedinLogo} alt="social" />
+            <img className="object-scale-down" src={githubLogo} alt="social" />{" "}
+            <img
+              className="object-scale-down"
+              src={linkedinLogo}
+              alt="social"
+            />
           </span>
           <span className="flex gap-[20px]">
             Leandro Fontan{" "}
-            <img className="object-contain" src={githubLogo} alt="social" />{" "}
-            <img className="object-contain" src={linkedinLogo} alt="social" />
+            <img className="object-scale-down" src={githubLogo} alt="social" />{" "}
+            <img
+              className="object-scale-down"
+              src={linkedinLogo}
+              alt="social"
+            />
           </span>
           <span className="flex gap-[20px]">
             Leandro Fontan{" "}
-            <img className="object-contain" src={githubLogo} alt="social" />{" "}
-            <img className="object-contain" src={linkedinLogo} alt="social" />
+            <img className="object-scale-down" src={githubLogo} alt="social" />{" "}
+            <img
+              className="object-scale-down"
+              src={linkedinLogo}
+              alt="social"
+            />
           </span>
         </div>
         <nav className="grid">
