@@ -1,22 +1,19 @@
 import './App.css';
 import Home from './ui/organisms/home.organism';
-import Header from './ui/molecules/Header';
-import Footer from "./ui/molecules/footer";
 import { HowItWorks } from './ui/organisms/how-it-works.organism';
 import { FAQs } from './ui/organisms/FAQs.organism';
+import { Layout } from './components/layout.component';
 
 function App() {
   return (
-    <>
-      <Header></Header>
+    <Layout>
       <Home />
       <div className="py-20" />
       <HowItWorks />
       <div className="py-20" />
       <FAQs />
       <div className="py-20" />
-      <Footer></Footer>
-    </>
+    </Layout>
   );
 }
 

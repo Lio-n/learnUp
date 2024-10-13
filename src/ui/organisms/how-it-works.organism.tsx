@@ -1,6 +1,6 @@
-import MakeItYourOwnVideo from '../../assets/make-it-your-own.mp4';
-import EnjoyYourTimeVideo from '../../assets/enjoy-your-time.mp4';
-import ThinkTogetherVideo from '../../assets/think-together.mp4';
+import MakeItYourOwnVideo from '../../assets/videos/make-it-your-own.mp4';
+import EnjoyYourTimeVideo from '../../assets/videos/enjoy-your-time.mp4';
+import ThinkTogetherVideo from '../../assets/videos/think-together.mp4';
 import Bubble from '../atoms/Bubble';
 
 export const HowItWorks = () => {
@@ -55,6 +55,7 @@ export const HowItWorks = () => {
           </li>
         ))}
       </ul>
+
       <div className="absolute top-[20%] left-[20%]">
         <Bubble
           variant="illuminated"

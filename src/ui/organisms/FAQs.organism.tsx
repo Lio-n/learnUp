@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Bubble from '../atoms/Bubble';
-import illustrationFAQs from '../../assets/illustration_FAQs.svg';
+import illustrationFAQs from '../../assets/illustrations/illustration_FAQs.svg';
 
 type FAQ = { question: string; answer: string };
 const FAQItem = ({ question, answer }: FAQ) => {

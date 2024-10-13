@@ -1,13 +1,11 @@
-import Bubble from "../atoms/Bubble";
+import Bubble from '../atoms/Bubble';
 
 export default function Home() {
   return (
-    <div className="relative max-w-7xl group mx-auto">
-      <section className=" w-full mx-auto relative z-10 text-white-smoke px-5 lg:px-0 py-72 md:pt-72 md:pb-80">
+    <section id="home" className="relative max-w-7xl group mx-auto">
+      <div className=" w-full mx-auto relative z-[1] text-white-smoke px-5 lg:px-0 py-72 md:pt-72 md:pb-80">
         <h1 className="text-2xl md:text-7xl">Welcome to LearnUp!</h1>
-        <p className="text-sm my-3 md:text-2xl md:my-5">
-          Learn Together, Grow Together.
-        </p>
+        <p className="text-sm my-3 md:text-2xl md:my-5">Learn Together, Grow Together.</p>
         <ul className="text-xs md:text-lg">
           <li className="flex items-start gap-2 py-1">
             <span className="w-0 h-0 border-l-[6px] md:border-l-[8px] border-l-transparent border-b-[10px] md:border-b-[12px] border-b-violet-blue border-r-[6px] md:border-r-[8px] border-r-transparent md:pt-2"></span>
@@ -19,11 +17,11 @@ export default function Home() {
           </li>
           <li className="flex items-start gap-2 py-1">
             <span className="w-0 h-0 border-l-[6px] md:border-l-[8px] border-l-transparent border-b-[10px] md:border-b-[12px] border-b-violet-blue border-r-[6px] md:border-r-[8px] border-r-transparent md:pt-2"></span>
-            You can be an avid Learner in search of knowledge <br />— or a
-            creative Creator ready to share your experience.
+            You can be an avid Learner in search of knowledge <br />— or a creative Creator ready to share your
+            experience.
           </li>
         </ul>
-      </section>
+      </div>
 
       <Bubble
         variant="illuminated"
@@ -31,7 +29,6 @@ export default function Home() {
         size="medium"
         className="absolute transition-transform duration-[1200ms] group-hover:translate-y-3 bottom-[5%] left-[-60%] md:w-[415px] md:h-[415px] md:bottom-[-15%] md:left-[-5%]"
       />
-
       <Bubble
         color="bg-violet-blue"
         size="large"
@@ -65,6 +62,6 @@ export default function Home() {
         size="tiny"
         className="absolute transition-transform duration-[1200ms] group-hover:translate-y-3 hidden md:block md:top-[25%] md:left-[25%]"
       />
-    </div>
+    </section>
   );
 }

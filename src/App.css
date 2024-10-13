@@ -26,10 +26,6 @@
   }
 }
 
-.header-logo {
-  object-fit: scale-down;
-}
-
 .card {
   padding: 2em;
 }
@@ -67,4 +63,23 @@
 .circle {
   border-radius: 100%;
   object-fit: cover;
+}
+
+/* styles.css */
+.anchor_animated a {
+  @apply block relative;
+  padding: 0.2em 0;
+  overflow: hidden;
+  width: fit-content;
+}
+
+.anchor_animated a::after {
+  content: '';
+  @apply absolute bottom-0 left-0 w-full h-[0.15em] bg-violet-blue opacity-0 transition-opacity transition-transform duration-300;
+  transform: translate3d(-100%, 0, 0);
+}
+
+.anchor_animated a:hover::after {
+  @apply opacity-100;
+  transform: translate3d(0, 0, 0);
 }
