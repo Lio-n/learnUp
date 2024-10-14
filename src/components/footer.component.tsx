@@ -1,5 +1,6 @@
 import linkedinLogo from '../assets/logos/linkedin.svg';
 import githubLogo from '../assets/logos/github.svg';
+import FormSubscribe from './formSubscribe.component';
 
 export function Footer() {
   return (
@@ -8,17 +9,7 @@ export function Footer() {
         <div className="w-full grid gap-4 lg:max-w-lg ">
           <img className="w-[50px]" src="/learnup-favicon.ico" alt="logo" />
           <h3 className="text-white text-4xl">Register for Exclusive Access</h3>
-          <form className="flex gap-4">
-            <input
-              className="w-full text-eerie-black placeholder-eerie-black text-base p-2"
-              type="email"
-              name="email"
-              placeholder="Enter your email"
-            />
-            <button className="bg-eerie-black text-white border border-white p-2 transition-colors hover:bg-lavender-indigo">
-              Suscribe
-            </button>
-          </form>
+          <FormSubscribe />
         </div>
 
         <div className="flex justify-around mt-8 flex-wrap gap-4 lg:items-baseline lg:gap-16">
