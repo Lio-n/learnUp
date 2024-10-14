@@ -1,5 +1,5 @@
 <p align="center" style="margin:50px 0;">
-Logo
+<img src="public/learnup-favicon.ico"/>
 </p>
 
 <h2 align="center" style="margin:50px 0; font-style: italic; font-weight: 500;">
@@ -15,14 +15,28 @@ Logo
 - [🚀 Getting Started](#🚀-getting-started)
   - [🟠 Pre-requirements](#🟠-pre-requirements)
   - [🔵 Installation](#🔵-installation)
+- [📝 Authors](#📝-authors)
 
 ## Overview
 
-_Añadir descripcion_
+LearnUp is a collaborative learning platform designed to enhance user interaction and engagement. The platform aims to bring together learners and instructors, offering a space where users can share knowledge, work together on projects, and grow their skills.
+
+The current MVP includes a landing page to capture the interest of potential users and provide updates on the platform's development. Future updates will introduce features such as course content, interactive collaboration tools, and user-driven discussions.
 
 ### 📌 Project Structure
 
-_Añadir descripcion_
+- **src/assets**: Contains static files like images, videos, and other resources that are used across the project.
+- **src/components**: Holds reusable components that may not fit within the atomic design structure, serving as shared components used throughout the application.
+
+- **src/ui/atoms**: Represents the smallest building blocks of the user interface, such as buttons, icons, and input fields.
+
+- **src/ui/molecules**: Consists of simple components formed by combining multiple atoms, such as form fields with labels or card components.
+
+- **src/ui/organisms**: Contains more complex components that combine molecules and atoms, forming distinct sections of the application, like navigation bars or entire form layouts.
+
+- **src/lib**: Includes third-party libraries or modules that are integrated into the project, providing additional functionality.
+
+- **src/utils**: Holds utility functions or helper methods that perform common operations used throughout the project.
 
 ### ⚜️ Built with
 
@@ -64,3 +78,15 @@ _Añadir descripcion_
    ```sh
    yarn dev
    ```
+
+## 📝 Authors
+
+- 🧑‍💼 [Leonardo Fontan](https://github.com/Lio-n)
+  - **Role** : Project Manager & Frontend Design.
+  - **Responsibilities** : Responsible for project planning, task prioritization, and designing the structure of the landing page.
+- 🧑‍💼 [Frezzini Lucas](https://github.com/lucasfrezzini)
+  - **Role** : Frontend Developer.
+  - **Responsibilities** : In charge of implementing the assigned tasks and contributing to the development of interactive features.
+- 🧑‍💼 [Santiago Miranda](https://github.com/santiago-mir)
+  - **Role** : Frontend Developer.
+  - **Responsibilities** : In charge of implementing the assigned tasks and contributing to the development of interactive features.
