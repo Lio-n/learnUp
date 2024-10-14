@@ -32,7 +32,8 @@ const FormSubscribe = () => {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const email = (e.target as any).email.value;
 
-    handleSendEmail(email);
+    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
+    email.length > 8 && handleSendEmail(email);
   };
 
   return (
