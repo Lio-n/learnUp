@@ -16,7 +16,7 @@ export function Footer() {
           <div className="grid gap-[10px]">
             <h3 className="text-lg">Developed by</h3>
             <span className="flex justify-around gap-[15px]">
-              <p className="w-[145px]">Leandro Fontan</p>
+              <p className="w-[145px]">Leonardo Fontan</p>
               <a target="_black" href="https://github.com/Lio-n">
                 <img className="w-6" src={githubLogo} alt="social" />
               </a>
